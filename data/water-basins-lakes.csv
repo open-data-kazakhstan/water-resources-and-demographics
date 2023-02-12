@@ -1,17 +1,17 @@
-Lakes_KZ,"Square, km²",Regions
-Caspian Sea,371000,Atyrau|Mangistau
-Balkhash,16400,"Almaty, Karaganda, Zhambyl"
-Aral Sea,13900,"Kyzylorda, Aktobe"
-Small Aral Sea,3300,Kyzylorda
-Alakol,2200,"Almaty, East Kazakhstan region"
+lakes_kz,square,regions
+CaspianSea,371000,Atyrau|Mangistau
+Balkhash,16400,"Almaty,Karaganda,Zhambyl"
+AralSea,13900,"Kyzylorda,Aktobe"
+SmallAralSea,3300,Kyzylorda
+Alakol,2200,"Almaty,EastKazakhstanregion"
 Zaysan,1810,East_Kazakhstan
-Tengiz,1590,Akmola
+Tengiz,1590,Aola
 Seltyteniz,750,North_Kazakhstan
-Sasykkol,736,"Almaty, East Kazakhstan region"
+Sasykkol,736,"Almaty,EastKazakhstanregion"
 Kusmuryn,460,Kostanay
 Markol,455,East_Kazakhstan
 Sarykopa,336,Kostanay
-Kurgaldzhin,330,Akmola
+Kurgaldzhin,330,Aola
 Shaglutenize,267,North_Kazakhstan
 Ulken-Kara,306,North_Kazakhstan
 Teke,257,North_Kazakhstan
@@ -22,7 +22,7 @@ Sluts,171,Pavlodar
 Karasor,155,Karaganda
 Arys,124,Kyzylorda
 Aralor,124,West_Kazakhstan
-Ulyales,120,"Almaty, East Kazakhstan region"
+Ulyales,120,"Almaty,EastKazakhstanregion"
 Indder,110,Atyrau
 Kishi-karai,101,North_Kazakhstan
 Koibagar,95.95,Kostanay
@@ -31,7 +31,7 @@ Zhaltyr,92.8,Gurievskaya
 Sarykopa,89.1,Kostanay
 Biylekol,86.5,Zhambyl
 Shureksor,80.94,Pavlodar
-Big Azhbulat,80.25,Pavlodar
+BigAzhbulat,80.25,Pavlodar
 Karasor,75.55,Kokshetau
 Karacoin,75.3,Zhezkazgan
 Ashchikol,74.23,Kyzylorda
@@ -41,9 +41,9 @@ Ashchikol,60.5,Zhambyl
 Zharman,56.91,Kostanay
 Zhaksykylysh,59.7,Kyzylorda
 Aralsor,57.86,Ural
-Itemman,56.22-57.4,Akmola
+Itemman,56.81,Aola
 Akkol,56,Zhambyl
 Maraldy,54.75,Pavlodar
 Kalmakkol,53.14,Kokshetau
-Tontyger,52-54.3,Kostanay
-Kak,52.24,North Kazakhstan
+Tontyger,53.15,Kostanay
+Kak,52.24,NorthKazakhstan

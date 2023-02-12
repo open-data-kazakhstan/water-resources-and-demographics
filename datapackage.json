@@ -1,0 +1,223 @@
+{
+  "bytes": 3360,
+  "count_of_rows": 96,
+  "hash": "a75d171e251685ed9b1b11989e3abf46",
+  "name": "water-resources-and-demographics-kz",
+  "profile": "data-package",
+  "resources": [
+    {
+      "bytes": 927,
+      "dialect": {
+        "caseSensitiveHeader": false,
+        "delimiter": ",",
+        "doubleQuote": true,
+        "header": true,
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "skipInitialSpace": false
+      },
+      "encoding": "utf-8",
+      "format": "csv",
+      "hash": "cf8ae16f4f52211ac55c8e7d4012371a",
+      "name": "water-basins-kz",
+      "path": "data/water-basins-kz.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "format": "default",
+            "name": "basins_kz",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "square",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "water_resources_kz",
+            "type": "integer"
+          },
+          {
+            "format": "default",
+            "name": "regions_kz",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "basins_population",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "urban_basins_population",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "rural_basins_population",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "rivers",
+            "type": "string"
+          },
+          {
+            "decimalChar": ".",
+            "format": "default",
+            "groupChar": "",
+            "name": "river_length_in_kz",
+            "type": "number"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "bytes": 1326,
+      "dialect": {
+        "caseSensitiveHeader": false,
+        "delimiter": ",",
+        "doubleQuote": true,
+        "header": true,
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "skipInitialSpace": false
+      },
+      "encoding": "utf-8",
+      "format": "csv",
+      "hash": "968705cf894848ca3c71cff24ba34a07",
+      "name": "water-basins-lakes",
+      "path": "data/water-basins-lakes.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "format": "default",
+            "name": "lakes_kz",
+            "type": "string"
+          },
+          {
+            "decimalChar": ".",
+            "format": "default",
+            "groupChar": "",
+            "name": "square",
+            "type": "number"
+          },
+          {
+            "format": "default",
+            "name": "regions",
+            "type": "string"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "bytes": 345,
+      "dialect": {
+        "caseSensitiveHeader": false,
+        "delimiter": ",",
+        "doubleQuote": true,
+        "header": true,
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "skipInitialSpace": false
+      },
+      "encoding": "utf-8",
+      "format": "csv",
+      "hash": "c3c9d8e8e44096eeac2658fa9a3017c0",
+      "name": "water-basins-rivers",
+      "path": "data/water-basins-rivers.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "format": "default",
+            "name": "rivers_kz",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "river_length",
+            "type": "integer"
+          },
+          {
+            "format": "default",
+            "name": "river_length_in_kz",
+            "type": "integer"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "bytes": 762,
+      "dialect": {
+        "caseSensitiveHeader": false,
+        "delimiter": ",",
+        "doubleQuote": true,
+        "header": true,
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "skipInitialSpace": false
+      },
+      "encoding": "utf-8",
+      "format": "csv",
+      "hash": "636c2a8354974794b2385626a5f3f054",
+      "name": "water-basins-water-comsumption",
+      "path": "data/water-basins-water-comsumption.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "format": "default",
+            "name": "rivers_kz",
+            "type": "string"
+          },
+          {
+            "decimalChar": ".",
+            "format": "default",
+            "groupChar": "",
+            "name": "rivers_length",
+            "type": "number"
+          },
+          {
+            "format": "default",
+            "name": "rivers_fall_m",
+            "type": "integer"
+          },
+          {
+            "decimalChar": ".",
+            "format": "default",
+            "groupChar": "",
+            "name": "avg_annual_water_consumption_m3_s",
+            "type": "number"
+          },
+          {
+            "format": "default",
+            "name": "water_and_energy_resources_power_thousand_kw",
+            "type": "integer"
+          },
+          {
+            "format": "default",
+            "name": "water_and_energy_resources_power_mln_kwh_year",
+            "type": "integer"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    }
+  ],
+  "title": "Water resources and demographics"
+}

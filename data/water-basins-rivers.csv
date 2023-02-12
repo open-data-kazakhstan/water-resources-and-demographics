@@ -1,4 +1,4 @@
-rivers_kz,river_length_km,river_length_in_kz_km
+rivers_kz,river_length,river_length_in_kz
 Irtysh,4254,1700
 Ishim,2450,1400
 Ural,2428,1082
@@ -9,11 +9,11 @@ Chu,1186,800
 Nura,978,978
 Turgai,825,825
 Oiyl,800,800
-Sarysu,800 ,800
+Sarysu,800,800
 Emba,712,712
 Talas,662,453
-BigOzen,650 ,260
-SmallOzen,638 ,395
+BigOzen,650,260
+SmallOzen,638,395
 Ilek,623,623
 Irgiz,593,593
 Sagiz,511,511
