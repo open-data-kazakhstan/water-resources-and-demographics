@@ -1,7 +1,7 @@
 {
-  "bytes": 24083,
-  "count_of_rows": 362,
-  "hash": "f70fd73adac88e50d6f14bf6e6e556fd",
+  "bytes": 35375,
+  "count_of_rows": 758,
+  "hash": "762c4f9c49781cdd24a01934d5b89ccf",
   "name": "water-resources-and-demographics-kz",
   "profile": "data-package",
   "resources": [
@@ -455,6 +455,46 @@
           {
             "format": "default",
             "name": "class",
+            "type": "string"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "bytes": 11292,
+      "dialect": {
+        "caseSensitiveHeader": false,
+        "delimiter": ",",
+        "doubleQuote": true,
+        "header": true,
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "skipInitialSpace": false
+      },
+      "encoding": "utf-8",
+      "format": "csv",
+      "hash": "4684b357c80407b925faf5fad30e01e3",
+      "name": "population-main",
+      "path": "data/population-main.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "format": "default",
+            "name": "region",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "year",
+            "type": "year"
+          },
+          {
+            "format": "default",
+            "name": "value",
             "type": "string"
           }
         ],

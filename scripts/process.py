@@ -1,4 +1,4 @@
-from dataflows import Flow, load, dump_to_path, add_metadata, printer, update_resource, unpivot
+from dataflows import Flow, load, dump_to_path, add_metadata, printer, update_resource, unpivot, find_replace
 from dataflows.helpers import ResourceMatcher
 import csv 
 import openpyxl
@@ -31,9 +31,13 @@ def xlsx_to_csv():
     inputExcelFile1 = 'archive/Water_Basins_KZ.xlsx'
     inputExcelFile2 = 'archive/Water Classes.xlsx'
     inputExcelFile3 = 'archive/Water_regulations_KZ.xlsx'
+    inputExcelFile4 = 'archive/Population_KZ.xlsx'
+    
     wb1 = openpyxl.load_workbook(inputExcelFile1)
     wb2 = openpyxl.load_workbook(inputExcelFile2)
     wb3 = openpyxl.load_workbook(inputExcelFile3)
+    wb4 = openpyxl.load_workbook(inputExcelFile4)
+    
     ws_water_basins_main = wb1["Basins_KZ"]
     ws_water_basins_lakes = wb1["Lakes_KZ"]
     ws_water_basins_rivers = wb1["Rivers_KZ"]
@@ -42,6 +46,7 @@ def xlsx_to_csv():
     ws_water_classes_objects = wb2["Classes_of_water_objects_KZ"]
     ws_water_classes_quality = wb2["Water_quality_2006"]
     ws_water_regulations = wb3["Hygienic_water_standards"]
+    ws_population_main = wb4["Population_KZ"]
     
     OutputCsvFile1 = csv.writer(open("data/water_basins_kz_v1.csv", 'w'), delimiter=",")
     OutputCsvFile2 = csv.writer(open("data/water_basins_lakes_v1.csv", 'w'), delimiter=",")
@@ -51,6 +56,7 @@ def xlsx_to_csv():
     OutputCsvFile6 = csv.writer(open("data/water_classes_objects_v1.csv", 'w'), delimiter=",")
     OutputCsvFile7 = csv.writer(open("data/water_classes_quality_v1.csv", 'w'), delimiter=",")
     OutputCsvFile8 = csv.writer(open("data/water_regulations_v1.csv", 'w'), delimiter=",")
+    OutputCsvFile9 = csv.writer(open("data/population_main_v1.csv", 'w'), delimiter=",")
     
     for eachrow in ws_water_basins_main.rows:
         OutputCsvFile1.writerow([cell.value for cell in eachrow])
@@ -68,7 +74,9 @@ def xlsx_to_csv():
         OutputCsvFile7.writerow([cell.value for cell in eachrow])
     for eachrow in ws_water_regulations.rows:
         OutputCsvFile8.writerow([cell.value for cell in eachrow])
-        
+    for eachrow in ws_population_main.rows:
+        OutputCsvFile9.writerow([cell.value for cell in eachrow])
+            
 def clean_water_basins_kz():
     with open("data/water_basins_kz_v1.csv","r", newline="") as fin, open("data/water_basins_kz_v2.csv","w") as fout:
         writer=csv.writer(fout)
@@ -133,7 +141,17 @@ def clean_water_regulations():
         for row in reader:
             if any(row):
                 writer.writerow(row[1:6]) 
-
+                
+def clean_population_main():
+    with open("data/population_main_v1.csv","r", newline="") as fin, open("data/population_main_v2.csv","w") as fout:
+        reader= csv.reader(fin)
+        writer = csv.writer(fout)
+        next(reader, None)  # skip the headers
+        next(reader, None)  # skip the headers
+        for row in reader:
+            if any(row):
+                writer.writerow(row) 
+                
 def water_resources_and_demographics_process():
     xlsx_to_csv()
     clean_water_basins_kz()
@@ -144,6 +162,8 @@ def water_resources_and_demographics_process():
     clean_water_classes_objects()
     clean_water_classes_quality()
     clean_water_regulations()
+    clean_population_main()
+
     flow = Flow(
         load("data/water_basins_kz_v2.csv", format='csv', name='water-basins-kz'),
         rename_column("Basins_KZ", "basins_kz", "water-basins-kz"),
@@ -177,7 +197,7 @@ def water_resources_and_demographics_process():
         rename_column("Water_and_energy_resources,Power,thousandkW", "water_and_energy_resources_power_thousand_kw", "water-basins-water-comsumption"),
         rename_column("Waterandenergyresources,Energy,millionkWh/year", "water_and_energy_resources_power_mln_kwh_year", "water-basins-water-comsumption"),        
         update_resource('water-basins-water-comsumption', path='data/water-basins-water-comsumption'),
-        
+    
         load("data/water_classes_v2.csv", format='csv', name='water-classes'),
         rename_column("Class", "class", "water-classes"),
         rename_column("Water quality characteristic", "water_quality_characteristics", "water-classes"),
@@ -185,8 +205,7 @@ def water_resources_and_demographics_process():
         rename_column("Domestic and drinking water use", "domestic_and_drinking_water_use", "water-classes"),
         rename_column("Domestic water use", "domestic_water_use", "water-classes"),
         update_resource('water-classes', path='data/water-classes'),
-        
-        
+
         load("data/water_classes_objects_v2.csv", format='csv', name='water-classes-objects'),
         rename_column("Water objects", "water_objects", "water-classes-objects"),
         rename_column("Type of water objects", "type", "water-classes-objects"),
@@ -195,8 +214,7 @@ def water_resources_and_demographics_process():
         rename_column("WPI", "wpi", "water-classes-objects"),
         update_resource('water-classes-objects', path='data/water-classes-objects'),
         update_resource('water-classes-objects', description='Classes and characteristics of water quality according to the value of the complex water pollution index (WPI)'),
-        
-        
+    
         load("data/water_classes_quality_v2.csv", format='csv', name='water-classes-quality'),
         rename_column("Rivers_KZ", "rivers", "water-classes-quality"),
         rename_column("Type of water objects", "type", "water-classes-quality"),
@@ -220,7 +238,24 @@ def water_resources_and_demographics_process():
         rename_column("Class", "class", "water-regulations"),
         update_resource('water-regulations', path='data/water-regulations'),
         update_resource('water-regulations', description='Hygienic standards for the content of chemicals in water (to control the migration of harmful chemicals from materials and reagents used in the practice of drinking water supply)'),
-
+        
+        load("data/population_main_v2.csv", format='csv', name='population-main'),
+        unpivot([
+            { 'name': '([0-9]{4})', 'keys': {'year': r'\1'} }
+        ], [ {'name': 'year', 'type': 'year'} ], {'name': 'value', 'type': 'string'},resources = "population-main"),
+        find_replace(
+            fields=[
+                {
+                    "name": "value",
+                    "patterns": [{"find": r"-", "replace": ""}],
+                }
+            ],
+            resources="population-main",
+        ),
+        rename_column("Regions_KZ", "region", "population-main"),    
+        update_resource('population-main', path='data/population-main'),
+        
+        
         add_metadata(name='water-resources-and-demographics-kz', title='''Water resources and demographics'''),
         dump_to_path(),
     )
@@ -241,8 +276,8 @@ def water_resources_and_demographics_process():
     os.remove("data/water_classes_quality_v2.csv")
     os.remove("data/water_regulations_v1.csv")
     os.remove("data/water_regulations_v2.csv")
+    os.remove("data/population_main_v1.csv")
+    os.remove("data/population_main_v2.csv")
+    
 if __name__ == '__main__':
     water_resources_and_demographics_process()
-    #xlsx_to_csv()
-    #clean_water_regulations()
-    #clean_water_basins_water_comsumption_kz()
