@@ -1,0 +1,98 @@
+rivers,type,regions,wpi_april_2005,wpi_march_2006,wpi_april_2006,ingredients_and_indicators,avg_concentration_mg/l,multiplicity_of_exceeding_the_mpc,classes,characteristic
+Irtysh,river,East Kazakhstan,3.13,2.3,2.35,Copper,0.0019,1.9,III class,moderately polluted
+Irtysh,river,East Kazakhstan,3.13,2.3,2.35,Zinc,0.039,3.9,III class,moderately polluted
+Irtysh,river,Pavlodar,1.93,0.9,0.81,Copper,0.002,2,II class,clean
+Bukhtarma,river,East Kazakhstan,3.96,0.47,3.22,Ammonia nitrogen,0.55,1.4,IV class,polluted
+Bukhtarma,river,East Kazakhstan,3.96,0.47,3.22,Iron total,0.95,9.5,IV class,polluted
+Bukhtarma,river,East Kazakhstan,3.96,0.47,3.22,Copper,0.0049,4.9,IV class,polluted
+Breksa,river,East Kazakhstan,9.44,3.7,5.8,Ammonia nitrogen,0.82,2.1,V class,dirty
+Breksa,river,East Kazakhstan,9.44,3.7,5.8,Iron total,0.63,6.3,V class,dirty
+Breksa,river,East Kazakhstan,9.44,3.7,5.8,Copper,0.0122,12.2,V class,dirty
+Breksa,river,East Kazakhstan,9.44,3.7,5.8,Zinc,0.12,12,V class,dirty
+Breksa,river,East Kazakhstan,9.44,3.7,5.8,Manganese,0.025,2.5,V class,dirty
+Tikhaya,river,East Kazakhstan,9.49,4.36,5.74,Ammonia nitrogen,0.86,2.2,V class,dirty
+Tikhaya,river,East Kazakhstan,9.49,4.36,5.74,Iron total,0.74,7.4,V class,dirty
+Tikhaya,river,East Kazakhstan,9.49,4.36,5.74,Copper,0.012,12,V class,dirty
+Tikhaya,river,East Kazakhstan,9.49,4.36,5.74,Zinc,0.111,11.1,V class,dirty
+Tikhaya,river,East Kazakhstan,9.49,4.36,5.74,Manganese,0.025,2.5,V class,dirty
+Ulba,river,East Kazakhstan,8.77,5.77,4.76,Ammonia nitrogen,1.01,2.6,V class,dirty
+Ulba,river,East Kazakhstan,8.77,5.77,4.76,Iron total,0.676,6.8,V class,dirty
+Ulba,river,East Kazakhstan,8.77,5.77,4.76,Copper,0.0066,6.6,V class,dirty
+Ulba,river,East Kazakhstan,8.77,5.77,4.76,Zinc,0.107,10.7,V class,dirty
+Ulba,river,East Kazakhstan,8.77,5.77,4.76,Manganese,0.019,1.9,V class,dirty
+Glubochanka,river,East Kazakhstan,6.19,4.27,5.33,Ammonia nitrogen,1.59,4.1,V class,dirty
+Glubochanka,river,East Kazakhstan,6.19,4.27,5.33,nitrogen nitrite,0.084,4.2,V class,dirty
+Glubochanka,river,East Kazakhstan,6.19,4.27,5.33,Copper,0.0069,6.9,V class,dirty
+Glubochanka,river,East Kazakhstan,6.19,4.27,5.33,Zinc,0.127,12.7,V class,dirty
+Glubochanka,river,East Kazakhstan,6.19,4.27,5.33,Manganese,0.056,5.6,V class,dirty
+Krasnoyarka,reservoir,East Kazakhstan,6.98,14.2,4.44,Ammonia nitrogen,1.76,4.5,V class,dirty
+Krasnoyarka,river,East Kazakhstan,6.98,14.2,4.44,Copper,0.0028,2.8,V class,dirty
+Krasnoyarka,river,East Kazakhstan,6.98,14.2,4.44,Zinc,0.136,13.6,V class,dirty
+Krasnoyarka,river,East Kazakhstan,6.98,14.2,4.44,Manganese,0.034,3.4,V class,dirty
+Uba,river,East Kazakhstan,4.45,0.97,3.45,Ammonia nitrogen,0.86,2.2,IV class,polluted
+Uba,river,East Kazakhstan,4.45,0.97,3.45,Iron total,0.99,9.9,IV class,polluted
+Uba,river,East Kazakhstan,4.45,0.97,3.45,Copper,0.0053,5.3,IV class,polluted
+Ural,river,West Kazakhstan,1.05,1.07,0.87,nitrogen nitrite,0.042,2.1,II class,clean
+Chagan,river,West Kazakhstan,1.09,0.92,1.01,nitrogen nitrite,0.042,2.1,III class,moderately polluted
+Derkul,river,West Kazakhstan,,1.1,0.85,Phenols,0.002,2,II class,clean
+Ilek,river,Aktobe,4.67,6.82,3.2,Bor,0.22,13,IV class,polluted
+Tobol,river,Kostanay,0.46,0.46,0.63,,,,II class,clean
+Ishim,river,North Kazakhstan,1.75,1.15,1.11,Iron total,0.2,2,III class,moderately polluted
+Ishim,river,Akmola,0.89,0.99,0.8,Oil products,0.1,2,II class,clean
+Vyacheslavskoe,reservoir,Akmola,0.78,0.68,0.67,Oil products,0.09,1.8,II class,clean
+Ak-Bulak,river,Astana,0.83,1.03,0.68,Oil products,0.09,1.7,II class,clean
+Sary-Bulak,river,Astana,2.23,1.99,1.22,sulfates,174,1.7,III class,moderately polluted
+Sary-Bulak,river,Astana,2.23,1.99,1.22,Oil products,0.13,2.6,III class,moderately polluted
+Borovoe,lake,Akmola,0.6,0.5,0.52,Oil products,0.08,1.6,II class,clean
+Big Chebache,lake,Akmola,0.7,0.72,0.66,,,,II class,clean
+Shuchie,lake,Akmola,0.67,0.44,0.44,,,,II class,clean
+Nura,river,Akmola,1.07,1.9,1.17,sulfates,170,1.7,III class,moderately polluted
+Nura,river,Akmola,1.07,1.9,1.17,Oil products,0.11,2.1,III class,moderately polluted
+Nura,river,Karaganda,2.09,2.7,1.9,Oil products,0.13,2.5,III class,moderately polluted
+Nura,river,Karaganda,2.09,2.7,1.9,Mercury,0.0002,2,III class,moderately polluted
+Kara-Kengir,river,Karaganda,11.56,4.21,6.28,BOD5,4,2,VI class,very dirty
+Kara-Kengir,river,Karaganda,11.56,4.21,6.28,Copper,0.0065,6.5,VI class,very dirty
+Kara-Kengir,river,Karaganda,11.56,4.21,6.28,Oil products,1.2,24.1,VI class,very dirty
+Sherubay-Nura,river,Karaganda,3.59,4.32,3.16,BOD5,5,2.5,IV class,polluted
+Sherubay-Nura,river,Karaganda,3.59,4.32,3.16,Ammonia nitrogen,2.23,5.7,IV class,polluted
+Sherubay-Nura,river,Karaganda,3.59,4.32,3.16,nitrogen nitrite,0.145,7.3,IV class,polluted
+Sherubay-Nura,river,Karaganda,3.59,4.32,3.16,Oil products,0.15,3,IV class,polluted
+Samarkand,reservoir,Karaganda,1.48,5.61,1.51,Copper,0.0025,2.5,III class,moderately polluted
+Samarkand,reservoir,Karaganda,1.48,5.61,1.51,Oil products,0.1,2,III class,moderately polluted
+Samarkand,reservoir,Karaganda,1.48,5.61,1.51,Mercury,0.00022,2.2,III class,moderately polluted
+Kengir,reservoir,Karaganda,3.65,5.34,4.85,Copper,0.004,4,"V class,",грязная
+Kengir,reservoir,Karaganda,3.65,5.34,4.85,Phenols,0.002,2,"V class,",грязная
+Kengir,reservoir,Karaganda,3.65,5.34,4.85,Oil products,1.04,20.8,"V class,",грязная
+Ili,river,Almaty,1.07,1.01,2.25,Copper,0.0068,6.8,III class,moderately polluted
+Sharyn,river,Almaty,1.14,,1.75,Copper,0.007,7,III class,moderately polluted
+Shilik,river,Almaty,0.88,,1.68,Copper,0.006,6,III class,moderately polluted
+Turgen,river,Almaty,0.99,,1.57,Copper,0.006,6,III class,moderately polluted
+Tekes,river,Almaty,0.93,0.77,2.06,Copper,0.007,7,III class,moderately polluted
+Khorgos,river,Almaty,0.83,1.4,3.08,Copper,0.0088,8.8,IV class,polluted
+Karkara,river,Almaty,0.83,,2.2,Copper,0.007,7,III class,moderately polluted
+Bayankol,river,Almaty,0.77,,1.83,Copper,0.006,6,III class,moderately polluted
+Kapshagai,reservoir,Almaty,0.97,0.94,1.68,Copper,0.0055,5.5,III class,moderately polluted
+Kurtinskoye,reservoir,Almaty,1.1,1.28,1.48,Copper,0.005,5,III class,moderately polluted
+Bartogay,reservoir,Almaty,,1.27,1.63,Copper,0.006,6,III class,moderately polluted
+Malaya Almatinka,river,Almaty city,3.4,2.46,1.25,Chrome 6+,0.002,2,III class,moderately polluted
+Esentai,river,Almaty city,3.25,3.1,1.61,Copper,0.002,2,III class,moderately polluted
+Esentai,river,Almaty city,3.25,3.1,1.61,Chrome 6+,0.003,3,III class,moderately polluted
+Bolshaya Almatinka,river,Almaty city,1.45,2.23,1.34,Copper,0.002,2,III class,moderately polluted
+Bolshaya Almatinka,river,Almaty city,1.45,2.23,1.34,Iron 2+,0.2,2,III class,moderately polluted
+Talas,river,Zhambyl,0.83,1.35,0.92,Copper,0.0046,4.6,II class,clean
+Shu,river,Zhambyl,1.75,2.13,2.84,BOD5,4.1,2.1,IV class,polluted
+Shu,river,Zhambyl,1.75,2.13,2.84,nitrogen nitrite,0.043,2.2,IV class,polluted
+Shu,river,Zhambyl,1.75,2.13,2.84,Copper,0.008,8,IV class,polluted
+Shu,river,Zhambyl,1.75,2.13,2.84,Phenols,0.003,3,IV class,polluted
+Assa,river,Zhambyl,1.29,1.94,1.47,Copper,0.0046,4.6,III class,moderately polluted
+Syrdarya,river,South Kazakhstan,1.18,1.87,1.3,sulfates,361,3.6,III class,moderately polluted
+Syrdarya,river,South Kazakhstan,1.18,1.87,1.3,Copper,0.003,3,III class,moderately polluted
+Keles,river,South Kazakhstan,1.75,2.46,1.94,sulfates,505,5.1,III class,moderately polluted
+Keles,river,South Kazakhstan,1.75,2.46,1.94,Copper,0.004,4,III class,moderately polluted
+Badam,river,South Kazakhstan,1.5,1.88,1.6,sulfates,182,1.8,III class,moderately polluted
+Badam,river,South Kazakhstan,1.5,1.88,1.6,Copper,0.005,5,III class,moderately polluted
+Bugun,river,South Kazakhstan,0.45,0.45,0.35,,,,II class,clean
+Katta-Bugun,river,South Kazakhstan,0.27,0.34,0.28,,,,II class,clean
+Shardara,reservoir,South Kazakhstan,1.63,1.74,2.09,sulfates,452,4.5,III class,moderately polluted
+Shardara,reservoir,South Kazakhstan,1.63,1.74,2.09,Copper,0.004,4,III class,moderately polluted
+Syrdarya,river,Kyzylorda,1.17,2.11,1.2,sulfates,405,4.1,III class,moderately polluted

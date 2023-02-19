@@ -15,11 +15,15 @@ We have processed the source data to make it normalized and derived from it seve
 * `data/water-basins-rivers.csv` - rivers description.
   * `river_length` in kilometers
 * `data/water-basins-water-comsumpsion.csv` - water basins consumption 
-  * Average annual water consumption in m3/s
-  * Rivers length in km
-  * River fall in m
-  * Water and energy resources power in thousand kW
-  * Water and energy resources energy in million kWh/year
+  * `Average annual water consumption` in m3/s
+  * `Rivers length` in km
+  * `River fall` in m
+  * `Water and energy resources power` in thousand kW
+  * `Water and energy resources energy` in million kWh/year
+* `data/water-classes` - class description
+* `data/water-classes-objects` - Classes and characteristics of water quality according to the value of the complex water pollution index (WPI)
+* `data/water-classes-quality` - State of the quality of surface waters of Kazakhstan in terms of hydrochemical indicators in April 2006
+* `data/water-regulations` - Hygienic standards for the content of chemicals in water (to control the migration of harmful chemicals from materials and reagents used in the practice of drinking water supply)
 
 We have also added some metadata such as column descriptions and [data packaged it][dp].
 

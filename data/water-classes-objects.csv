@@ -1,0 +1,51 @@
+water_objects,type,region,class,wpi
+Irtysh,river,Pavlodar,II class,0.81
+Ural,river,Atyrau region,II class,0.87
+Derkul,river,West Kazakhstan,II class,0.85
+Tobol,river,Kostanay,II class,0.63
+Vyacheslavskoe,reservoir,Akmola region,II class,0.67
+Ishim,river,Akmola region,II class,0.8
+Ak-Bulak,river,Akmola region,II class,0.68
+Big Chebache,lake,Akmola region,II class,0.66
+Borovoe,lake,Akmola region,II class,0.52
+Shuchie,lake,Akmola region,II class,0.44
+Talas,river,Zhambyl region,II class,0.92
+Bugun,river,Turkestan region,II class,0.35
+Katta Bugun,river,Turkestan region,II class,0.28
+Irtysh,river,East Kazakhstan,III class,2.35
+Chagan,river,West Kaakhstan,III class,1.01
+Ishim,river,North Kazakhstan,III class,1.11
+Sary-Bulak,river,Astana,III class,1.22
+Nura,river,Akmola region,III class,1.9
+Samarkand,reservoir,Karagandy region,III class,1.51
+Ile,river,Almaty region,III class,2.25
+Sharyn,river,Almaty region,III class,1.75
+Shilik,river,Almaty region,III class,1.68
+Turgen,river,Almaty region,III class,1.57
+Tekes,river,Almaty region,III class,2.06
+Karkara,river,Almaty region,III class,2.2
+Bayankol,river,Almaty region,III class,1.83
+Kapshagai,reservoir,Almaty region,III class,1.68
+Kurtinskoe,reservoir,Almaty region,III class,1.48
+Bartogay,reservoir,Almaty region,III class,1.63
+Malaya Almatinka,river,Almaty city,III class,1.25
+Esentai,river,Almaty city,III class,1.61
+Big Almatinka,river,Almaty city,III class,1.34
+Assa,river,Zhambyl region,III class,1.47
+Syrdarya,river,Kyzylorda region,III class,1.30
+badam,river,Turkestan region,III class,1.6
+Shardara,reservoir,Turkestan region,III class,2.09
+Keles,river,Turkestan region,III class,1.94
+Bukhtarma,river,East Kazakhstan region,IV class,3.22
+Uba,river,East Kazakhstan region,IV class,3.45
+Ilek,river,Aktobe region,IV class,3.2
+Sherubay-Nura,river,Karagandy region,IV class,3.16
+Shu,river,Zhambyl region,IV class,2.84
+Khorgos,river,Almaty region,IV class,3.08
+Brexa,river,East Kazakhstan region,V class,5.8
+Tikhaya,river,East Kazakhstan region,V class,5.74
+Ulba,river,East Kazakhstan region,V class,4.7
+Glubochanka,river,East Kazakhstan region,V class,5.33
+Krasnoyarsk,river,North Kazakhstan,V class,4.44
+Kengir,reservoir,Ulytau region,V class,4.85
+Kara-Kengir,river,Ulytau region,VI class,6.28

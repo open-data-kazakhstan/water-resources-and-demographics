@@ -1,0 +1,8 @@
+class,water_quality_characteristics,Water_pollution_index_wpi,domestic_and_drinking_water_use,domestic_water_use
+I class,very clean,0.0-0.3,quite suitable,suitable
+II class,clean,0.3-1.0,suitable,suitable
+III class,moderately polluted,1.0-2.5,suitable for cleaning,suitable
+IV class,polluted,2.5-4.0,not suitable,not suitable
+V class,dirty,4.0-6.0,not suitable,not suitable
+VI class,very dirty,6.0-10,not suitable,not suitable
+VII class,extremely dirty,>10,not suitable,not suitable

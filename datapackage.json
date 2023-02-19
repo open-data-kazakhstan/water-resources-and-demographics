@@ -1,7 +1,7 @@
 {
-  "bytes": 3360,
-  "count_of_rows": 96,
-  "hash": "a75d171e251685ed9b1b11989e3abf46",
+  "bytes": 24083,
+  "count_of_rows": 362,
+  "hash": "f70fd73adac88e50d6f14bf6e6e556fd",
   "name": "water-resources-and-demographics-kz",
   "profile": "data-package",
   "resources": [
@@ -211,6 +211,251 @@
             "format": "default",
             "name": "water_and_energy_resources_power_mln_kwh_year",
             "type": "integer"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "bytes": 491,
+      "dialect": {
+        "caseSensitiveHeader": false,
+        "delimiter": ",",
+        "doubleQuote": true,
+        "header": true,
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "skipInitialSpace": false
+      },
+      "encoding": "utf-8",
+      "format": "csv",
+      "hash": "f39f82d80b6f64b4ffb39ec6f39dc29e",
+      "name": "water-classes",
+      "path": "data/water-classes.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "format": "default",
+            "name": "class",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "water_quality_characteristics",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "Water_pollution_index_wpi",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "domestic_and_drinking_water_use",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "domestic_water_use",
+            "type": "string"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "bytes": 2305,
+      "description": "Classes and characteristics of water quality according to the value of the complex water pollution index (WPI)",
+      "dialect": {
+        "caseSensitiveHeader": false,
+        "delimiter": ",",
+        "doubleQuote": true,
+        "header": true,
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "skipInitialSpace": false
+      },
+      "encoding": "utf-8",
+      "format": "csv",
+      "hash": "8e30aa275f8761d99a0304ed85aeb749",
+      "name": "water-classes-objects",
+      "path": "data/water-classes-objects.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "format": "default",
+            "name": "water_objects",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "type",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "region",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "class",
+            "type": "string"
+          },
+          {
+            "decimalChar": ".",
+            "format": "default",
+            "groupChar": "",
+            "name": "wpi",
+            "type": "number"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "bytes": 8126,
+      "description": "State of the quality of surface waters of Kazakhstan in terms of hydrochemical indicators in April 2006",
+      "dialect": {
+        "caseSensitiveHeader": false,
+        "delimiter": ",",
+        "doubleQuote": true,
+        "header": true,
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "skipInitialSpace": false
+      },
+      "encoding": "utf-8",
+      "format": "csv",
+      "hash": "e21ac8b1099726872227ee66979456fa",
+      "name": "water-classes-quality",
+      "path": "data/water-classes-quality.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "format": "default",
+            "name": "rivers",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "type",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "regions",
+            "type": "string"
+          },
+          {
+            "decimalChar": ".",
+            "format": "default",
+            "groupChar": "",
+            "name": "wpi_april_2005",
+            "type": "number"
+          },
+          {
+            "decimalChar": ".",
+            "format": "default",
+            "groupChar": "",
+            "name": "wpi_march_2006",
+            "type": "number"
+          },
+          {
+            "decimalChar": ".",
+            "format": "default",
+            "groupChar": "",
+            "name": "wpi_april_2006",
+            "type": "number"
+          },
+          {
+            "format": "default",
+            "name": "ingredients_and_indicators",
+            "type": "string"
+          },
+          {
+            "decimalChar": ".",
+            "format": "default",
+            "groupChar": "",
+            "name": "avg_concentration_mg/l",
+            "type": "number"
+          },
+          {
+            "decimalChar": ".",
+            "format": "default",
+            "groupChar": "",
+            "name": "multiplicity_of_exceeding_the_mpc",
+            "type": "number"
+          },
+          {
+            "format": "default",
+            "name": "classes",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "characteristic",
+            "type": "string"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "bytes": 9801,
+      "description": "Hygienic standards for the content of chemicals in water (to control the migration of harmful chemicals from materials and reagents used in the practice of drinking water supply)",
+      "dialect": {
+        "caseSensitiveHeader": false,
+        "delimiter": ",",
+        "doubleQuote": true,
+        "header": true,
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "skipInitialSpace": false
+      },
+      "encoding": "utf-8",
+      "format": "csv",
+      "hash": "28907734c9cf52e308046c9f61805076",
+      "name": "water-regulations",
+      "path": "data/water-regulations.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "format": "default",
+            "name": "substance_name",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "indicator_type",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "standards_mpc_not_more_than_mg/l",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "hazard_index",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "class",
+            "type": "string"
           }
         ],
         "missingValues": [
