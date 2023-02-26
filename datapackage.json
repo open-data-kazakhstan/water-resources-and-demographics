@@ -1,12 +1,12 @@
 {
-  "bytes": 35375,
+  "bytes": 35353,
   "count_of_rows": 758,
-  "hash": "762c4f9c49781cdd24a01934d5b89ccf",
+  "hash": "e9edea08f56ba5a1a41bb8f45989af71",
   "name": "water-resources-and-demographics-kz",
   "profile": "data-package",
   "resources": [
     {
-      "bytes": 927,
+      "bytes": 905,
       "dialect": {
         "caseSensitiveHeader": false,
         "delimiter": ",",
@@ -18,7 +18,7 @@
       },
       "encoding": "utf-8",
       "format": "csv",
-      "hash": "cf8ae16f4f52211ac55c8e7d4012371a",
+      "hash": "d326420241eb43816d63ffe67a151053",
       "name": "water-basins-kz",
       "path": "data/water-basins-kz.csv",
       "profile": "tabular-data-resource",
@@ -30,9 +30,11 @@
             "type": "string"
           },
           {
+            "decimalChar": ".",
             "format": "default",
+            "groupChar": "",
             "name": "square",
-            "type": "string"
+            "type": "number"
           },
           {
             "format": "default",
@@ -47,7 +49,7 @@
           {
             "format": "default",
             "name": "basins_population",
-            "type": "string"
+            "type": "integer"
           },
           {
             "format": "default",

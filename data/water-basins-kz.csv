@@ -1,9 +1,9 @@
 basins_kz,square,water_resources_kz,regions_kz,basins_population,urban_basins_population,rural_basins_population,rivers,river_length_in_kz
-Aral_Syrdarya_Basin,345000,37900,Turkestan_region|Kyzylorda_region,"2,5млн","1,2млн","1,4млн",Syrdarya|Keles|Arys,1627
-Ile_Balkhash_Basin,353000,149400,Almaty_region|Zhambyl_region,"3,3млн","1,6млн","1,5млн",Ile|Sharyn|Shelek|Kurty,814.75
-Irtysh_Basin,"1,643,000",43800,East_Kazakhstan_region|Semey|Oskemen,16469,,,Irtysh,1835
-Ishim_Basin,245000,5340,North_Kazakhstan_Region|Aola_region,"1,9млн",,,Ishim,1717
-Nura_Sarysu_Basin,58.1,4590,Karaganda_region,1млн,,,Nura|Sarysu,978
-Tobol_Turgai_Basin,214000,2900,Kostanay_region|Aktobe_region,"1,05млн",,,Tobol|Turgai|Irgiz,600
-Ural_Caspian_Basin,415000,28000,West_Kazakhstan_Region|Atyrau_region|Aktobe_region,"2,2млн",,,Ural,1082
-Shu_Talas_Basin,64.3,6110,Zhambyl_region,"980,000",,,Shu|Talas|Assa,800
+Aral_Syrdarya_Basin,345000,37900,Turkestan_region|Kyzylorda_region,25000000,"1,2млн","1,4млн",Syrdarya|Keles|Arys,1627
+Ile_Balkhash_Basin,353000,149400,Almaty_region|Zhambyl_region,33000000,"1,6млн","1,5млн",Ile|Sharyn|Shelek|Kurty,814.75
+Irtysh_Basin,1643000,43800,East_Kazakhstan_region|Semey|Oskemen,16469,,,Irtysh,1835
+Ishim_Basin,245000,5340,North_Kazakhstan_Region|Aola_region,19000000,,,Ishim,1717
+Nura_Sarysu_Basin,58.1,4590,Karaganda_region,1000000,,,Nura|Sarysu,978
+Tobol_Turgai_Basin,214000,2900,Kostanay_region|Aktobe_region,105000000,,,Tobol|Turgai|Irgiz,600
+Ural_Caspian_Basin,415000,28000,West_Kazakhstan_Region|Atyrau_region|Aktobe_region,22000000,,,Ural,1082
+Shu_Talas_Basin,64.3,6110,Zhambyl_region,980000,,,Shu|Talas|Assa,800

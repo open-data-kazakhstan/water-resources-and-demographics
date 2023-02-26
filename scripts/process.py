@@ -82,6 +82,8 @@ def clean_water_basins_kz():
         writer=csv.writer(fout)
         for row in csv.reader(fin):
             if any(row):
+                row[2] = row[2].replace('"','').replace(',','').strip()
+                row[5] = row[5].replace('млн','000000').replace(',','').strip()
                 writer.writerow(row[1:-1])
 def clean_water_basins_lakes_kz():
     with open("data/water_basins_lakes_v1.csv","r", newline="") as fin, open("data/water_basins_lakes_v2.csv","w") as fout:
