@@ -1,7 +1,7 @@
 {
   "bytes": 35353,
   "count_of_rows": 758,
-  "hash": "e9edea08f56ba5a1a41bb8f45989af71",
+  "hash": "5cd6f19c107f1d629ae5964ee77e51dd",
   "name": "water-resources-and-demographics-kz",
   "profile": "data-package",
   "resources": [
@@ -284,7 +284,7 @@
       },
       "encoding": "utf-8",
       "format": "csv",
-      "hash": "8e30aa275f8761d99a0304ed85aeb749",
+      "hash": "4ccbed38e1c01a1270ca186e6cbbb0e6",
       "name": "water-classes-objects",
       "path": "data/water-classes-objects.csv",
       "profile": "tabular-data-resource",

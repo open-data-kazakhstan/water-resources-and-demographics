@@ -1,4 +1,4 @@
-from dataflows import Flow, load, dump_to_path, add_metadata, printer, update_resource, unpivot, find_replace
+from dataflows import Flow, load, dump_to_path, add_metadata, printer, update_resource, unpivot, find_replace,sort_rows
 from dataflows.helpers import ResourceMatcher
 import csv 
 import openpyxl
@@ -214,6 +214,7 @@ def water_resources_and_demographics_process():
         rename_column("Region", "region", "water-classes-objects"),
         rename_column("Class", "class", "water-classes-objects"),
         rename_column("WPI", "wpi", "water-classes-objects"),
+        sort_rows("wpi","water-classes-objects",reverse=True),
         update_resource('water-classes-objects', path='data/water-classes-objects'),
         update_resource('water-classes-objects', description='Classes and characteristics of water quality according to the value of the complex water pollution index (WPI)'),
     
